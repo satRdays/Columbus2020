@@ -24,7 +24,7 @@ If you want to have a website set up, please request this in the #satrdays-websi
 
 #### Set the repo as a mirror the main repository
 
-1. Open Git Bash.
+1. Open Git Bash (or your command-line interpreter).
 
 2. Create a bare clone of the repository.
 
@@ -32,7 +32,7 @@ If you want to have a website set up, please request this in the #satrdays-websi
   git clone --bare https://github.com/satRdays/satRday_site_template
   ```
 
-3. Make a GitHub Repo named `[cityYEAR]` in all lower case, no spaces
+3. Make a GitHub Repo named `[cityYEAR]` in all lower case, no spaces. Don't initialize it with a README.
 
 4. Mirror-push to the new repository.
 
