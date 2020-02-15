@@ -1,6 +1,28 @@
-## satRday_site_template
+# satRday_site_template
 
-### What I can do
+## How to get an official satRdays website
+
+You can very easily fork this repo and work off of it
+
+__HOWEVER__
+
+If you are starting a satRdays event, then the best thing to do is join the [slack R User Groups Workspace](https://join.slack.com/t/rusergroups/shared_invite/enQtMjEyNDA3MzcyMjczLTE3NWEzNjQ3MjZiMWM0OGE2ZWFiZDliNTY4NTJjYWY1NGNjMmNlNDUzNzkzOTZmMDBjYjRiZjFhNjk4MDY0ZGY) and go to the `#satrdays-website` channel and ask about setting up a website, tagging @DaveParr.
+
+Example Request that you can copy, edit, and paste into the channel:
+
+> Hi @DaveParr, I would like a website to promote my event in [your city] that will be held in [the year of the event]. My GitHub user name is [your username]. Thanks!
+
+This will mean that:
+
+* we create a repo for you in the satRdays GitHub Organisation
+* we will set you up as a member of the satRdays GitHub Organisation
+* we will set up a GitHub Team in the GitHub Organisation for you to manage your new site
+
+## Support in slack
+
+The #satrdays-website channel is now filled with people who have used this template. This is your best resource for asking questions about how to use and edit the template.
+
+## What I can do
 
 I can give you most of a website for satRdays events, ready (almost) out of the box. I have a number of sections to help you out:
 * Event description
@@ -20,9 +42,9 @@ I can give you most of a website for satRdays events, ready (almost) out of the 
 
 If you want to have a website set up, please request this in the #satrdays-website slack channel of the R User Group organizers Slack (rusergroups.slack.com), tagging @DaveParr.
 
-### Administrator tasks
+## Administrator tasks
 
-#### Set the repo as a mirror the main repository
+### Set the repo as a mirror the main repository
 
 1. Open Git Bash (or your command-line interpreter).
 
@@ -52,7 +74,7 @@ rm -rf satRday_site_template.git
 
 6. Add the GitHub Team to the repo you made as 'Admin'
 
-#### Netlify
+### Netlify
 
 1. Make a new deploy from GitHub in the Satrdays Netlify Team
 
@@ -62,8 +84,8 @@ rm -rf satRday_site_template.git
 
 3. Add the additional domain [cityYEAR].satrdays.com
 
-### Organiser tasks
-#### Edit the base url in `config.toml`
+## Organiser tasks
+### Edit the base url in `config.toml`
 Change 
 ```
 baseurl = "https://satrdays-event-template.netlify.com/"
@@ -74,7 +96,7 @@ baseurl = "https://yourcity20XX.satrdays.org/"
 ```
 otherwise, images you upload to your site won't work.
 
-#### Customise the config
+### Customise the config
 The file [config.toml](https://github.com/satRdays/satRday_site_template/blob/master/config.toml) gives you access to a number of points on the site, mostly using [site params](https://gohugo.io/variables/site/#the-site-params-variable).
 
 A high level overview of these features:
@@ -87,38 +109,38 @@ A high level overview of these features:
 * `eid`/`accountevent`/`eventviewid`/`CfSpage`
   + strings that are part of a url (that are usually part of an iframe) to link to a service for tickets/Call for papers
 
-#### Include a new talk desciption
+### Include a new talk desciption
 * Talks are generated from `Talk0X.yaml` files in `data/projects/`
 * Each talk should have similar structures (some values may be missed or blank) based on the included examples, and be in its own file
 
-#### Include a new bio
+### Include a new bio
 * Speaker/organiser bios are generated from `Speaker0X.toml` files in `data/speakers/`
 * Each speaker should have similar structures (some values may be missed or blank) based on the included examples, and be in its own file
 
-### What if I need even more customistation?
+## What if I need even more customistation?
 In the hopefully rare event that even more specific material is needed you can explore the following. Make use of the [hugo inheritance method](https://gohugo.io/templates/lookup-order/#hugo-layouts-lookup-rules-with-theme) to override defaults where applicable, rather than modify the defaults in place.
 
-#### CSS/style
+### CSS/style
 * Copy the base `hugo-satrdays-theme/static/css/style.css` into `/static/css/style.css`
   + This will now be the style sheet for your website, overriding the themes
   
-#### New Section/Custom Section
+### New Section/Custom Section
 * Either 
   + find a [partial](https://gohugo.io/templates/partials/) from `/layouts/partials` in the existing themes you want to base your work on, copy it to the project `/layouts/partials`, and modify the copy
   + write a new `myfile.html` from scratch and include it in the project `/layouts/partials`
 * then make sure that it is referenced in `index.html`
 
-### What I am
+# What I am
 I am a [Hugo](//gohugo.io) website, with two themes. [Agency](https://github.com/digitalcraftsman/hugo-agency-theme) provides the base layer of theming, with a custom [satRday](https://github.com/satRdays/hugo-satrdays-theme) theme which overides some areas.
 
 More information on installing [hugo](https://gohugo.io/getting-started/installing/), including setting it up for [local previews](https://gohugo.io/getting-started/usage/) can be found in the official docs.
 
-#### Some notes and gotchas
+## Some notes and gotchas
 As the design is strongly based on the `hugo-agency-theme`, naming conventions are not obvious in certain situations
 * The `talks` section of `hugo-satrdays-theme` is built from the `portfolio` section of the `hugo-agency-theme`
 * The `important dates` section of `hugo-satrdays-theme` is built from the `about` section of the `hugo-agency-theme`
 * The `speakers` section of `hugo-satrdays-theme` is built from the `team` section of the `hugo-agency-theme`
 * The `sponsors` section of `hugo-satrdays-theme` is built from the `clients` section of the `hugo-agency-theme`
 
-## Video documentation
+# Video documentation
 - [How to configure the site](https://youtu.be/3b7y_wan_d8)
