@@ -75,6 +75,8 @@ rm -rf satRday_site_template.git
 
 6. Add the GitHub Team to the repo you made as 'Admin'
 
+There is now WIP on automating deployment using the scripts in [this repo](https://github.com/satRdays/automation)
+
 ### Netlify
 
 1. Make a new deploy from GitHub in the Satrdays Netlify Team
