@@ -43,50 +43,6 @@ I can give you most of a website for satRdays events, ready (almost) out of the 
 
 If you want to have a website set up, please request this in the #satrdays-website slack channel of the R User Group organizers Slack (rusergroups.slack.com), tagging @DaveParr.
 
-## Administrator tasks
-
-### Set the repo as a mirror the main repository
-
-1. Open Git Bash (or your command-line interpreter).
-
-2. Create a bare clone of the repository.
-
-  ```
-  git clone --bare https://github.com/satRdays/satRday_site_template
-  ```
-
-3. Make a GitHub Repo named `[cityYEAR]` in all lower case, no spaces. Don't initialize it with a README.
-
-4. Mirror-push to the new repository.
-
-```
-cd satRday_site_template.git
-git push --mirror https://github.com/satRdays/[cityYEAR].git
-```
-
-5. Remove the temporary local repository you created in step 1.
-
-```
-cd ..
-rm -rf satRday_site_template.git
-```
-
-5. Make a GitHub Team and add the conference organisers as members
-
-6. Add the GitHub Team to the repo you made as 'Admin'
-
-There is now WIP on automating deployment using the scripts in [this repo](https://github.com/satRdays/automation)
-
-### Netlify
-
-1. Make a new deploy from GitHub in the Satrdays Netlify Team
-
-2. The build command is `hugo` the build directory is `public`
-
-2. Rename the default domain to [cityYEAR].netlify.com
-
-3. Add the additional domain [cityYEAR].satrdays.com
-
 ## Organiser tasks
 ### Edit the base url in `config.toml`
 Change 
@@ -133,7 +89,7 @@ In the hopefully rare event that even more specific material is needed you can e
   + write a new `myfile.html` from scratch and include it in the project `/layouts/partials`
 * then make sure that it is referenced in `index.html`
 
-# What I am
+## What I am
 I am a [Hugo](//gohugo.io) website, with two themes. [Agency](https://github.com/digitalcraftsman/hugo-agency-theme) provides the base layer of theming, with a custom [satRday](https://github.com/satRdays/hugo-satrdays-theme) theme which overides some areas.
 
 More information on installing [hugo](https://gohugo.io/getting-started/installing/), including setting it up for [local previews](https://gohugo.io/getting-started/usage/) can be found in the official docs.
@@ -145,5 +101,49 @@ As the design is strongly based on the `hugo-agency-theme`, naming conventions a
 * The `speakers` section of `hugo-satrdays-theme` is built from the `team` section of the `hugo-agency-theme`
 * The `sponsors` section of `hugo-satrdays-theme` is built from the `clients` section of the `hugo-agency-theme`
 
-# Video documentation
+## Video documentation
 - [How to configure the site](https://youtu.be/3b7y_wan_d8)
+
+## Administrator tasks
+
+### Set the repo as a mirror the main repository
+
+1. Open Git Bash (or your command-line interpreter).
+
+2. Create a bare clone of the repository.
+
+  ```
+  git clone --bare https://github.com/satRdays/satRday_site_template
+  ```
+
+3. Make a GitHub Repo named `[cityYEAR]` in all lower case, no spaces. Don't initialize it with a README.
+
+4. Mirror-push to the new repository.
+
+```
+cd satRday_site_template.git
+git push --mirror https://github.com/satRdays/[cityYEAR].git
+```
+
+5. Remove the temporary local repository you created in step 1.
+
+```
+cd ..
+rm -rf satRday_site_template.git
+```
+
+5. Make a GitHub Team and add the conference organisers as members
+
+6. Add the GitHub Team to the repo you made as 'Admin'
+
+There is now WIP on automating deployment using the scripts in [this repo](https://github.com/satRdays/automation)
+
+### Netlify
+
+1. Make a new deploy from GitHub in the Satrdays Netlify Team
+
+2. The build command is `hugo` the build directory is `public`
+
+2. Rename the default domain to [cityYEAR].netlify.com
+
+3. Add the additional domain [cityYEAR].satrdays.com
