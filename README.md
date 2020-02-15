@@ -8,7 +8,7 @@ __HOWEVER__
 
 If you are starting a satRdays event, then the best thing to do is join the [slack R User Groups Workspace](https://join.slack.com/t/rusergroups/shared_invite/enQtMjEyNDA3MzcyMjczLTE3NWEzNjQ3MjZiMWM0OGE2ZWFiZDliNTY4NTJjYWY1NGNjMmNlNDUzNzkzOTZmMDBjYjRiZjFhNjk4MDY0ZGY) and go to the `#satrdays-website` channel and ask about setting up a website, tagging @DaveParr.
 
-Example Request that you can copy, edit, and paste into the channel:
+here is an __EXAMPLE REQUEST__ that you can copy, edit, and paste into the channel:
 
 > Hi @DaveParr, I would like a website to promote my event in [your city] that will be held in [the year of the event]. My GitHub user name is [your username]. Thanks!
 
