@@ -17,6 +17,7 @@ This will mean that:
 * we create a repo for you in the satRdays GitHub Organisation
 * we will set you up as a member of the satRdays GitHub Organisation
 * we will set up a GitHub Team in the GitHub Organisation for you to manage your new site
+* we will set up hosting for the repo in the satRdays organisation on [netlify](https://www.netlify.com/) to a domain like this: `myevent.satrdays.org`
 
 ## Support in slack
 
