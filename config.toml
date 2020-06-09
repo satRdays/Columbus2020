@@ -20,8 +20,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
+  name = "satRday Columbus 2020"
+  description = "Virtual R conference featuring useRs in the Central Ohio area on November 14, 2020"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -36,7 +36,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # 404 error customization
   [params.error404]
     heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    text = "Please visit [this page](https://satrdays.org/)"
 
   # Optional piwik tracking
   #[params.analytics.piwik]
@@ -53,11 +53,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Optional logo as brand stored in img/
     logo = "logo.png"
     services = "About"
+    callforpapers = "Submit"
+    about = "Timeline"
     portfolio = "Talks"
     eventbrite = "Register"
     schedule = "Schedule"
     team = "People"
-    contact = "Get involved"
+    contact = "Contact"
+
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -80,8 +83,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday Columbus"
+    subtitle = "A virtual R conference featuring useRs in the central Ohio area on November, 2020!"
     bg = true
     buttonText = "Tell me more"
 
@@ -97,15 +100,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "[Conference Date] at [Conference Location]"
+      description = "November 14, 2020 via Zoom. Registration is required to attend this conference. See below."
       url = "#"
 
-    [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Hands on"
-      description = "Practical applications and workshop sessions"
-      url = "#"
-
+   
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Learning"
@@ -121,19 +119,19 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
-      description = "Only [£30]"
+      description = "Free!"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-universal-access"
       title = "Accessible"
-      description = "Inclusive, supportive and respectful environment"
+      description = "An inclusive, supportive and respectful environment"
       url = "#"
 
   # Register section
   # You only need ONE of these active
   [params.tito]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     accountevent = "ultimateconf/2013"
@@ -141,7 +139,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eid = "32416000129" 
@@ -151,7 +149,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # Supply this string as the value to `eid` above
 
   [params.tickettailor]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eventviewid = "162430"
@@ -161,8 +159,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
-    title = "Call For Papers"
+    enable = false
+    title = "Call For Submissions"
     bg = false
     CfSpage = "/test3490"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
@@ -170,7 +168,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Hackathon section
   [params.hackathon]
-    enable = true
+    enable = false
     bg = false
     title = "Hackathon"
     subtitle="Can you _Hack_ it?"
@@ -184,13 +182,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = true
+    enable = false
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Talks"
-    subtitle = "Who's saying what"
+    title = "Speakers"
+    subtitle = "Speakers for satRdays Columbus 2020"
     bg = true
 
     [params.portfolio.modal]
@@ -201,7 +199,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Schedule section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     bg = false
 
@@ -216,32 +214,39 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
-      date = "First Date"
-      title = "Initial Announcement"
-      description = "We're organising a conference!"
+      img = "submission.jpg"
+      date = "July 6, 2020"
+      title = "Call for Proposals Open"
+      description = "Call for proposals for satRday Columbus 2020 are now open!"
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "Second Date"
-      title = "Early Bird Ticket Sales"
-      description = "Early round of tickets now available at discount"
+      img = "submission.jpg"
+      date = "August 17, 2020"
+      title = "Proposal Submission Deadline at Midnight"
+      description = "Submissions for the talk close at midnight US eastern time."
+      
+    [[params.about.events]]
+      img = "mic.jpg"
+      date = "September 12, 2020 "
+      title = "Speakers get notified"
+      description = "Speakers get notified for accepted talks."
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "Third Date"
-      title = "Call For Papers"
-      description = "Submissions for speakers are now open!"
+      img = "tickets.jpg"
+      date = "September 19, 2020"
+      title = "Registration Opens"
+      description = "Registration for satRday Columbus opens."
 
     [[params.about.events]]
-      img = "4.jpg"
-      date = "Fourth Date"
-      title = "Call For Papers Ends"
-      description = "Cut off date for speaker submissions"
+      img = "satrday-logo.png"
+      date = "November 14, 2020"
+      title = "Virtual satRday Columbus 2020!"
+      description = "We are very much looking forward to the inagural satRdays Columbus!"
+
   
   # Location section
   [params.location]
-    enable = true
+    enable = false
     title = "Location title"
     bg = true
     iframesrc = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12770.336629178193!2d174.7680403!3d-36.8524341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x868a73f26ed3e621!2sDepartment+of+Statistics%2C+University+of+Auckland!5e0!3m2!1sen!2suk!4v1533231461829"
@@ -262,48 +267,62 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
-      reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+      img = "jdblischak.jpg"
+      name = "John Blischak"
+      position = "Freelance Scientific Software Developer"
+      bio = "Based out of Copley, OH."
       social = [
-        ["fa-twitter", "#"],
+        ["fa-twitter", "https://twitter.com/jdblischak"],
+        ["fa-github", "https://github.com/jdblischak"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jdblischak"]
+      ]
+
+    [[params.team.members]]
+      img = "ekaraesmen.jpg"
+      name = "Ezgi Karaesmen"
+      position = "RStudio Summer Intern"
+      bio = "Co-organizer of [R-Ladies Columbus](https://www.meetup.com/rladies-columbus/). Based out of Columbus, OH."
+      social = [
+        ["fa-twitter", "https://"],
         ["fa-github", "#"],
         ["fa-linkedin", "#"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+      img = "blawson.jpeg"
+      name = "Bernie Lawson"
+      position = "Data Scientist at 8455"
+      bio = "Open Source Supporter. Based out of Cincinnati, OH."
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/woodyblawson"],
+        ["fa-github", "https://github.com/lawsonbh"],
+        ["fa-linkedin", "https://www.linkedin.com/in/bernardlawson"]
+      ]
+      
+    [[params.team.members]]
+      img = "arizvi.png"
+      name = "Abbas Rizvi"
+      position = "Data Scientist at Covail"
+      bio = "Based out of Columbus, OH."
+      social = [
+        ["fa-twitter", "https://twitter.com/aarizvi"],
+        ["fa-github", "https://github.com/aarizvi"],
+        ["fa-linkedin", "https://www.linkedin.com/in/aarizv"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
+      img = "ksasso.jpg"
+      name = "Katie Sasso Schafer"
+      position = "Director of AI and Automation at Covail"
+      bio = "Co-organizer of [R-Ladies Columbus](https://www.meetup.com/rladies-columbus/). Based out of Columbus, OH."
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/KatieSasso"],
+        ["fa-github", "https://github.com/ksasso"],
+        ["fa-linkedin", "https://www.linkedin.com/in/katiesasso"]
       ]
-
   # Client section
   [params.clients_list]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     # Optional client title specifying the involvement
@@ -314,7 +333,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "envato.jpg"
+      logo = "root.jpg"
       link = "#"
 
     [[params.clients]]
@@ -360,7 +379,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "satrday.columbus@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
