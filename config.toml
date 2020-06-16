@@ -189,7 +189,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # For more informtion take a look at the README.
     title = "Speakers"
     subtitle = "Speakers for satRdays Columbus 2020"
-    bg = true
+    bg = false
 
     [params.portfolio.modal]
       client = "Client"
@@ -280,7 +280,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "ekaraesmen.jpg"
       name = "Ezgi Karaesmen"
-      position = "RStudio Summer Intern"
+      position = "RStudio Summer 2020 Intern, Incoming post doc at Nationwide Children's Hospitals Institute for Genomic Medicine."
       bio = "Co-organizer of [R-Ladies Columbus](https://www.meetup.com/rladies-columbus/). Based out of Columbus, OH."
       social = [
         ["fa-twitter", "https://"],
@@ -327,7 +327,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     #center = true
     # Optional client title specifying the involvement
     title = "Sponsors"
-    bg = true
+    bg = false
 
     # All the clients' logos are stored under 'static/img/logos'.
     # Replace them with your clients's logos.
