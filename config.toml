@@ -84,7 +84,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Columbus"
-    subtitle = "A virtual R conference featuring useRs in the central Ohio area on November, 2020!"
+    subtitle = "A virtual R conference featuring useRs across Ohio on November 14, 2020!"
     bg = true
     buttonText = "Tell me more"
 
