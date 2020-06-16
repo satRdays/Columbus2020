@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://eventtemplate.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
+baseurl = "https://columbus2020.satrdays.org" # Change this to the base url after netlify deploy, e.g. "https://cardiff2019.satrdays.org/"
 languageCode = "en-us"
 title = "satRday"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
@@ -21,7 +21,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "satRday Columbus 2020"
-  description = "Virtual R conference featuring useRs in the Central Ohio area on November 14, 2020"
+  description = "Virtual R conference featuring useRs across Ohio on November 14, 2020"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -291,7 +291,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "blawson.jpeg"
       name = "Bernie Lawson"
-      position = "Data Scientist at 8455"
+      position = "Data Scientist at 84.51"
       bio = "Open Source Supporter. Based out of Cincinnati, OH."
       social = [
         ["fa-twitter", "https://twitter.com/woodyblawson"],
