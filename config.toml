@@ -103,7 +103,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       description = "Nov 14, 2020 via Zoom (registration required)"
       url = "#"
 
-   
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Learning"
@@ -270,7 +269,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       img = "jdblischak.jpg"
       name = "John Blischak"
       position = "Freelance Scientific Software Developer"
-      bio = "Based out of Copley, OH."
+      bio = "Copley, OH"
       social = [
         ["fa-twitter", "https://twitter.com/jdblischak"],
         ["fa-github", "https://github.com/jdblischak"],
@@ -280,19 +279,19 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "ekaraesmen.jpg"
       name = "Ezgi Karaesmen"
-      position = "RStudio Summer 2020 Intern, Incoming post doc at Nationwide Children's Hospitals Institute for Genomic Medicine."
-      bio = "Co-organizer of [R-Ladies Columbus](https://www.meetup.com/rladies-columbus/). Based out of Columbus, OH."
+      position = "RStudio Summer 2020 Intern"
+      bio = "Columbus, OH"
       social = [
-        ["fa-twitter", "https://"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/e_Karaesmen"],
+        ["fa-github", "https://github.com/karaesmen"],
+        ["fa-linkedin", "https://www.linkedin.com/in/ezgi-karaesmen/"]
       ]
 
     [[params.team.members]]
       img = "blawson.jpeg"
       name = "Bernie Lawson"
       position = "Data Scientist at 84.51"
-      bio = "Open Source Supporter. Based out of Cincinnati, OH."
+      bio = "Cincinnati, OH"
       social = [
         ["fa-twitter", "https://twitter.com/woodyblawson"],
         ["fa-github", "https://github.com/lawsonbh"],
@@ -303,7 +302,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       img = "arizvi.png"
       name = "Abbas Rizvi"
       position = "Data Scientist at Covail"
-      bio = "Based out of Columbus, OH."
+      bio = "Columbus, OH"
       social = [
         ["fa-twitter", "https://twitter.com/aarizvi"],
         ["fa-github", "https://github.com/aarizvi"],
@@ -314,7 +313,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       img = "ksasso.jpg"
       name = "Katie Sasso Schafer"
       position = "Director of AI and Automation at Covail"
-      bio = "Co-organizer of [R-Ladies Columbus](https://www.meetup.com/rladies-columbus/). Based out of Columbus, OH."
+      bio = "Columbus, OH"
       social = [
         ["fa-twitter", "https://twitter.com/KatieSasso"],
         ["fa-github", "https://github.com/ksasso"],
