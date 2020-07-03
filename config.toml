@@ -100,14 +100,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "November 14, 2020 via Zoom. Registration is required to attend this conference. See below."
+      description = "Nov 14, 2020 via Zoom (registration required)"
       url = "#"
 
    
     [[params.services.row.list]]
       icon = "fa-graduation-cap"
       title = "Learning"
-      description = "Gain knowledge from your peers and experienced professionals"
+      description = "Gain knowledge from local R users"
       url = "#"
 
     [[params.services.row.list]]
