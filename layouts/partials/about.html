@@ -29,11 +29,14 @@
             </li>
           {{ end }}
 
+          <!-- Remove final "endpoint" bubble that isn't customizable (e.g. no date) -->
+          <!--
           <li class="timeline-inverted">
             <div class="timeline-image">
               <h4>{{ with .Site.Params.about.endpoint }}{{ . | markdownify }}{{ end }}</h4>
             </div>
           </li>
+          -->
         </ul>
       </div>
     </div>
