@@ -161,7 +161,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     enable = true
     title = "Call For Submissions"
     bg = false
-    CfSpage = "satrday-columbus-2020/"
+    CfSpage = "https://sessionize.com/satrday-columbus-2020/"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
     dates = "July 07 - Aug 17 2020"
   
