@@ -112,7 +112,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Community Lead"
-      description = "Community organised, community focussed"
+      description = "Community organized, community focused"
       url = "#"
 
     [[params.services.row.list]]
@@ -158,10 +158,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Call for papers section
   [params.callforpapers]
-    enable = false
+    enable = true
     title = "Call For Submissions"
     bg = false
-    CfSpage = "/test3490"
+    CfSpage = "https://sessionize.com/satrday-columbus-2020/"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
     dates = "09 Aug - 21 Sep 2018"
   
