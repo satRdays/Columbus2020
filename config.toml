@@ -427,11 +427,3 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       icon = "fa-github"
       link = "https://github.com/satRdays/Columbus2020"
       title = "GitHub"
-
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
