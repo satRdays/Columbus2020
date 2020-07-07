@@ -163,7 +163,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     bg = false
     CfSpage = "/satrday-columbus-2020/"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "July 07 - Aug 17 2020"
+    dates = "July 06 - Aug 17 2020"
   
   # Hackathon section
   [params.hackathon]
@@ -214,7 +214,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your own.
     [[params.about.events]]
       img = "submission.jpg"
-      date = "July 7, 2020"
+      date = "July 6, 2020"
       title = "Call for Proposals Open"
       description = "Call for proposals for satRday Columbus 2020 are now open!"
 
