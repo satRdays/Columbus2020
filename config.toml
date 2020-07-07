@@ -214,7 +214,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your own.
     [[params.about.events]]
       img = "submission.jpg"
-      date = "July 6, 2020"
+      date = "July 7, 2020"
       title = "Call for Proposals Open"
       description = "Call for proposals for satRday Columbus 2020 are now open!"
 
