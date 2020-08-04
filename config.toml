@@ -159,7 +159,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   # Call for papers section
   [params.callforpapers]
     enable = true
-    title = "Call For Submissions"
+    title = "Call For Speakers"
     bg = false
     CfSpage = "/satrday-columbus-2020/"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
