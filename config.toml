@@ -290,7 +290,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "blawson.jpeg"
       name = "Bernie Lawson"
-      position = "Data Scientist at 84.51"
+      position = "Data Scientist in Retail"
       bio = "Cincinnati, OH"
       social = [
         ["fa-twitter", "https://twitter.com/woodyblawson"],
