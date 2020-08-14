@@ -321,9 +321,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
   # Client section
   [params.clients_list]
-    enable = false
+    enable = true
     # Possibility to center items
-    #center = true
+    center = true
     # Optional client title specifying the involvement
     title = "Sponsors"
     bg = false
@@ -332,20 +332,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "root.jpg"
-      link = "#"
+      logo = "root-inc-logo-black.png"
+      link = "https://www.joinroot.com/"
 
     [[params.clients]]
-      logo = "designmodo.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "themeforest.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "creative-market.jpg"
-      link = "#"
+      logo = "aware.png"
+      link = "https://www.awarehq.com/"
   
   [params.diversity]
     enable = true
