@@ -279,7 +279,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.team.members]]
       img = "ekaraesmen.jpg"
       name = "Ezgi Karaesmen"
-      position = "RStudio Summer 2020 Intern"
+      position = "Bioinformatics Post-doc at Nationwide Children's Hospital"
       bio = "Columbus, OH"
       social = [
         ["fa-twitter", "https://twitter.com/e_Karaesmen"],
