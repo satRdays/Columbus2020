@@ -226,7 +226,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       
     [[params.about.events]]
       img = "mic.jpg"
-      date = "September 12, 2020 "
+      date = "September 6, 2020 "
       title = "Speakers get notified"
       description = "Speakers get notified for accepted talks."
 
