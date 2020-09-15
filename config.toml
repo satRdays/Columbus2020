@@ -158,7 +158,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Call For Speakers"
     bg = false
     CfSpage = "/satrday-columbus-2020/"
