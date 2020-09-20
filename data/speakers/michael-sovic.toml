@@ -1,7 +1,7 @@
 img = "michael-sovic.jpg"
 name = "Michael Sovic"
-organisation = "Progressive Insurance"
-role = "Data Analyst"
+organisation = "The Ohio State University"
+role = "Research Scientist"
 social = [
         ["fa-twitter", "https://twitter.com/MikeSovicOSU"],
         ["fa-github", "https://github.com/mikesovic/"],
