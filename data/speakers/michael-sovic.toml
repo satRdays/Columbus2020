@@ -1,0 +1,10 @@
+img = "michael-sovic.jpg"
+name = "Michael Sovic"
+organisation = "Progressive Insurance"
+role = "Data Analyst"
+social = [
+        ["fa-twitter", "https://twitter.com/MikeSovicOSU"],
+        ["fa-github", "https://github.com/mikesovic/"],
+        ["fa-linkedin", "https://www.linkedin.com/in/mike-sovic-8b372916/"],
+        ["fa-globe", "https://www.youtube.com/channel/UC2dB6jDTbqzlTM6edzfBSGQ"],
+      ]

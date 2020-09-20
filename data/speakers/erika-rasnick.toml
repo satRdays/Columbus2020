@@ -1,0 +1,9 @@
+img = "erika-rasnick.png"
+name = "Erika Rasnick"
+organisation = "Cincinnati Children's Hospital"
+role = "Biostatistician and Epidemiologist"
+social = [
+        ["fa-twitter", "https://twitter.com/erika_rasnick"],
+        ["fa-github", "https://github.com/erikarasnick"],
+        ["fa-linkedin", "https://www.linkedin.com/in/erika-rasnick-986227158/"],
+      ]

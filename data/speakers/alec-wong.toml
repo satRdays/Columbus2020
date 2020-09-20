@@ -1,0 +1,10 @@
+img = "alec-wong.jpg"
+name = "Alec Wong"
+organisation = "Progressive Insurance"
+role = "Data Analyst"
+social = [
+        ["fa-twitter", "https://twitter.com/Awong234"],
+        ["fa-github", "https://github.com/awong234"],
+        ["fa-linkedin", "https://www.linkedin.com/in/alec-wong-67966242/"],
+        ["fa-globe", "https://www.alecsalces.com/"],
+      ]

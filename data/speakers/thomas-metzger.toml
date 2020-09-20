@@ -1,0 +1,7 @@
+img = "thomas-metzger.png"
+name = "Thomas Metzger"
+organisation = "The Ohio State University"
+role = "Visiting Assistant Professor"
+social = [
+        ["fa-globe", "https://stat.osu.edu/people/metzger.181"],
+      ]

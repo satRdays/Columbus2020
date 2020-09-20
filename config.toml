@@ -259,7 +259,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     subtitle = "The people putting it together"
     bg = false
     description = ""
-    speakers = "" #"Speakers"
+    speakers = "Speakers"
     
 
     # All team member's pictures are stored under 'static/img/team'.

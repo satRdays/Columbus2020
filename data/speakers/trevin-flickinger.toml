@@ -1,0 +1,9 @@
+img = "trevin-flickinger.jpg"
+name = "Trevin Flickinger"
+organisation = "Grange Insurance"
+role = "Data Insights Analyst"
+social = [
+        ["fa-twitter", "https://twitter.com/trevin_flick"],
+        ["fa-linkedin", "https://www.linkedin.com/in/trevin-flickinger-b9400226/"],
+        ["fa-globe", "https://www.trevinflickinger.com/"],
+      ]

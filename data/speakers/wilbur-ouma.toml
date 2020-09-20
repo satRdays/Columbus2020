@@ -1,0 +1,8 @@
+img = "wilbur-ouma.jpg"
+name = "Wilbur Ouma"
+organisation = "Ohio Supercomputer Center"
+role = "Senior Systems Consultant"
+social = [
+        ["fa-github", "https://github.com/Wilber"],
+        ["fa-linkedin", "https://www.linkedin.com/in/wilberforce-ouma/"],
+      ]

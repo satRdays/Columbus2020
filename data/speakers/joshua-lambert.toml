@@ -1,0 +1,10 @@
+img = "joshua-lambert.png"
+name = "Joshua Lambert"
+organisation = "University of Cincinnati"
+role = "Assistant Professor"
+social = [
+        ["fa-twitter", "https://twitter.com/joshuawlambert"],
+        ["fa-github", "https://github.com/joshuawlambert"],
+        ["fa-linkedin", "https://www.linkedin.com/in/joshua-lambert-10573063/"],
+        ["fa-globe", "https://researchdirectory.uc.edu/p/1299887"],
+      ]

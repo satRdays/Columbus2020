@@ -1,0 +1,8 @@
+img = "matthew-hoff.jpg"
+name = "Matthew Hoff"
+organisation = "Energy Harbor, Corp."
+role = "Senior Risk Analyst"
+social = [
+        ["fa-github", "https://github.com/mghoff"],
+        ["fa-linkedin", "https://www.linkedin.com/in/matthew-g-hoff/"],
+      ]

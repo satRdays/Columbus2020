@@ -1,0 +1,9 @@
+img = "cole-brokamp.jpg"
+name = "Cole Brokamp"
+organisation = "Cincinnati Children's Hospital Medical Center"
+role = "Assistant Professor"
+social = [
+        ["fa-twitter", "https://twitter.com/cole_brokamp"],
+        ["fa-github", "https://github.com/cole-brokamp"],
+        ["fa-globe", "https://colebrokamp.com/"],
+      ]

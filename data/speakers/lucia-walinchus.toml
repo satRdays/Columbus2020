@@ -1,0 +1,10 @@
+img = "lucia-walinchus.jpg"
+name = "Lucia Walinchus"
+organisation = "Eye on Ohio"
+role = "Executive Director"
+social = [
+        ["fa-twitter", "https://twitter.com/sosayslucia"],
+        ["fa-github", "https://github.com/walinchus"],
+        ["fa-linkedin", "https://www.linkedin.com/in/luciaawt/"],
+        ["fa-globe", "https://eyeonohio.com/"],
+      ]

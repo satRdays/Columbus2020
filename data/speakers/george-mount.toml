@@ -1,0 +1,10 @@
+img = "george-mount.jpg"
+name = "George Mount"
+organisation = "Stringfest Analytics"
+role = "Founder"
+social = [
+        ["fa-twitter", "http://www.twitter.com/gjmount"],
+        ["fa-github", "http://www.github.com/summerofgeorge"],
+        ["fa-linkedin", "http://www.linkedin.com/in/gjmount"],
+        ["fa-globe", "http://www.stringfestanalytics.com/"],
+      ]
