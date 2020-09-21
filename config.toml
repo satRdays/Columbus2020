@@ -266,14 +266,25 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "john-blischak.jpg"
-      name = "John Blischak"
-      position = "Freelance Scientific Software Developer"
-      bio = "Copley, OH"
+      img = "abbas-rizvi.png"
+      name = "Abbas Rizvi"
+      position = "Data Scientist at Covail"
+      bio = "Columbus, OH"
       social = [
-        ["fa-twitter", "https://twitter.com/jdblischak"],
-        ["fa-github", "https://github.com/jdblischak"],
-        ["fa-linkedin", "https://www.linkedin.com/in/jdblischak"]
+        ["fa-twitter", "https://twitter.com/aarizvi"],
+        ["fa-github", "https://github.com/aarizvi"],
+        ["fa-linkedin", "https://www.linkedin.com/in/aarizv"]
+      ]
+
+    [[params.team.members]]
+      img = "bernie-lawson.jpg"
+      name = "Bernie Lawson"
+      position = "Data Scientist in Retail"
+      bio = "Cincinnati, OH"
+      social = [
+        ["fa-twitter", "https://twitter.com/woodyblawson"],
+        ["fa-github", "https://github.com/lawsonbh"],
+        ["fa-linkedin", "https://www.linkedin.com/in/bernardlawson"]
       ]
 
     [[params.team.members]]
@@ -288,25 +299,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
 
     [[params.team.members]]
-      img = "bernie-lawson.jpg"
-      name = "Bernie Lawson"
-      position = "Data Scientist in Retail"
-      bio = "Cincinnati, OH"
+      img = "john-blischak.jpg"
+      name = "John Blischak"
+      position = "Freelance Scientific Software Developer"
+      bio = "Copley, OH"
       social = [
-        ["fa-twitter", "https://twitter.com/woodyblawson"],
-        ["fa-github", "https://github.com/lawsonbh"],
-        ["fa-linkedin", "https://www.linkedin.com/in/bernardlawson"]
-      ]
-      
-    [[params.team.members]]
-      img = "abbas-rizvi.png"
-      name = "Abbas Rizvi"
-      position = "Data Scientist at Covail"
-      bio = "Columbus, OH"
-      social = [
-        ["fa-twitter", "https://twitter.com/aarizvi"],
-        ["fa-github", "https://github.com/aarizvi"],
-        ["fa-linkedin", "https://www.linkedin.com/in/aarizv"]
+        ["fa-twitter", "https://twitter.com/jdblischak"],
+        ["fa-github", "https://github.com/jdblischak"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jdblischak"]
       ]
 
     [[params.team.members]]
