@@ -266,7 +266,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "jdblischak.jpg"
+      img = "john-blischak.jpg"
       name = "John Blischak"
       position = "Freelance Scientific Software Developer"
       bio = "Copley, OH"
@@ -277,7 +277,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
 
     [[params.team.members]]
-      img = "ekaraesmen.jpg"
+      img = "ezgi-karaesmen.jpg"
       name = "Ezgi Karaesmen"
       position = "Genomics at Nationwide Children's Hospital"
       bio = "Columbus, OH"
@@ -288,7 +288,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
 
     [[params.team.members]]
-      img = "blawson.jpeg"
+      img = "bernie-lawson.jpg"
       name = "Bernie Lawson"
       position = "Data Scientist in Retail"
       bio = "Cincinnati, OH"
@@ -299,7 +299,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
       
     [[params.team.members]]
-      img = "arizvi.png"
+      img = "abbas-rizvi.png"
       name = "Abbas Rizvi"
       position = "Data Scientist at Covail"
       bio = "Columbus, OH"
@@ -310,7 +310,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       ]
 
     [[params.team.members]]
-      img = "ksasso.jpg"
+      img = "katie-sasso-schafer.jpg"
       name = "Katie Sasso Schafer"
       position = "Director of AI and Automation at Covail"
       bio = "Columbus, OH"
