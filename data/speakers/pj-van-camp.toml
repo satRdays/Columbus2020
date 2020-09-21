@@ -1,0 +1,7 @@
+img = "pj-van-camp.jpg"
+name = "PJ Van Camp"
+organisation = "University of Cincinnati"
+role = "Biomedical Informatics PhD Student"
+social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/pjvancamp/"],
+      ]
