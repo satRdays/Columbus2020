@@ -237,7 +237,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       description = "Registration for satRday Columbus opens."
 
     [[params.about.events]]
-      img = "satrday-logo.png"
+      img = "satrday-columbus-logo-solid.png"
       date = "November 14, 2020"
       title = "Virtual satRday Columbus 2020!"
       description = "We are very much looking forward to the inagural satRdays Columbus!"
