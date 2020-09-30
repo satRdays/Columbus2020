@@ -1,0 +1,10 @@
+img = "jim-hester.jpg"
+name = "Jim Hester"
+organisation = "RStudio"
+role = "Software Engineer"
+social = [
+        ["fa-twitter", "https://twitter.com/jimhester_"],
+        ["fa-github", "https://github.com/jimhester"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jim-hester/"],
+        ["fa-globe", "https://www.jimhester.com/"],
+      ]
