@@ -1,0 +1,25 @@
+modalID: 3
+title: "Three Levels of Computational Mobility"
+date: 2020-11-14
+preview: cole-brokamp.jpg
+client: "Cole Brokamp"
+category: Infrastructure
+description: "
+### Cole Brokamp
+
+Transferring an R project from one computing environment to another is a common
+task, including moving a local R project to a high performance computer, sending
+a project to a collaborator (including your future self), deploying a Shiny
+application, deploying R code to a continuous integration server, or creating a
+research compendium to ensure the reproducibility of your project. This process
+requires the capture and deployment of specific versions of R packages, their
+system dependencies, and R itself. In this talk, I will give an overview of thee
+different mechanisms for accomplishing this task: (1) using a static package
+repository (e.g., MRAN snapshots), (2) using helper packages (e.g., {dep},
+{renv}, {sysreqs}), and (3) using containers (e.g. Docker, Singularity). The
+desired balance between reproducibility and complexity for a specific project
+should direct what might be the best method. I will discuss these tradeoffs and
+how these three mechanisms can work separately and together to achieve true
+computational mobility.
+"
+talk: true

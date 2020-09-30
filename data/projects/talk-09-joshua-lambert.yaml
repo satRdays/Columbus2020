@@ -1,0 +1,23 @@
+modalID: 9
+title: "Exploring Interactions in Regression Models with R and rFSA"
+date: 2020-11-14
+preview: joshua-lambert.png
+client: "Joshua Lambert"
+category: Modeling
+description: "
+### Joshua Lambert
+
+During the process of building a regression model, data scientists are sometimes
+tasked with assessing the effects of one or more variables of interest. With an
+additive regression model, effects (eg. treatment) are assumed to equal across
+all possible subgroups(eg. sex, race, age). This assumption is typically not
+true, and in the era of personalized medicine we must begin to demand more
+insight from our regression models. The package rFSA (Lambert, 2018), implements
+an algorithm meant to explore subgroup specific effects in large datasets by
+identifying 2 and 3 way interactions to add to multivariable regression models.
+This package supports the optimization of multiple criteria, and different
+modeling strategies. This talk will give a short introduction to rFSA and how it
+can be applied to regression models in R. A strategy for interaction
+visualization will also be discussed.
+"
+talk: true

@@ -1,0 +1,31 @@
+modalID: 10
+title: "R For Communicating Science To Non-Scientists"
+date: 2020-11-14
+preview: michael-sovic.jpg
+client: "Michael Sovic"
+category: Communication
+description: "
+### Michael Sovic
+
+Scientific and data literacies are arguably important characteristics of any
+citizenry, as they can underlie everything from personal lifestyle choices to
+the shaping of public policy. However, levels of such literacies vary with
+regards to conceptual knowledge and also the process by which scientific and
+quantitative understandings are constructed. Further, clearly communicating
+scientific information can be difficult even when the audience consists of
+domain experts, and so is especially challenging when the information is
+targeted to those outside scientific and data-driven communities. The importance
+of such literacy and effective communication has been apparent in issues ranging
+from vaccines to climate, but was highlighted again with the circulation of
+covid-19. Early in the pandemic, instances of miscommunications,
+misunderstandings, and misinformation led to several calls for expanded efforts
+by scientists to better engage with the public. As an attempt at one such
+effort, I began creating short videos that use scientific issues in the news as
+a springboard to talk about relevant data and concepts, and to also discuss the
+nature of scientific information and the process by which scientific
+understandings are built. In this talk, I’ll give examples of how R has provided
+me a valuable platform for creating visualizations to help communicate difficult
+concepts such as exponential growth, multiple testing effects, and reporting
+biases, to individuals outside of science.
+"
+talk: true

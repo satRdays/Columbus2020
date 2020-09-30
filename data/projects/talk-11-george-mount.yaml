@@ -1,0 +1,19 @@
+modalID: 11
+title: "R-Powered Excel"
+date: 2020-11-14
+preview: george-mount.jpg
+client: "George Mount"
+category: Communication
+description: "
+### George Mount
+
+Excel spreadsheets are the tool of choice for data analysis and reporting among
+many business professionals, but Excel has its limitations for building
+repeatable, dynamic data processes.
+
+In this session, users will learn how to begin automating Excel workbooks using
+the `openxlsx`package. This approach combines R's knack for reproducible data
+analysis with the accessibility and end-user interaction features that make
+Excel so prevalent.
+"
+talk: true

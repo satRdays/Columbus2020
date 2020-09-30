@@ -1,0 +1,13 @@
+modalID: 5
+title: "R-aspberry Pi!"
+date: 2020-11-14
+preview: matthew-hoff.jpg
+client: "Matthew Hoff"
+category: Hobbies
+description: "
+### Matthew Hoff
+
+How I deployed a simple machine learning model using R & Shiny installed on a
+Raspberry Pi.
+"
+talk: true

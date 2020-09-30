@@ -1,0 +1,13 @@
+modalID: 2
+title: "R at Ohio Supercomputer Center"
+date: 2020-11-14
+preview: wilbur-ouma.jpg
+client: "Wilbur Ouma"
+category: Infrastructure
+description: "
+### Wilbur Ouma
+
+An introduction to the high-performance computing (HPC) clusters at Ohio
+Supercomputer Center (OSC), with an emphasis on using the RStudio server at OSC.
+"
+talk: true

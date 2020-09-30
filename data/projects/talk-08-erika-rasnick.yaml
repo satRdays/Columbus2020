@@ -1,0 +1,23 @@
+modalID: 8
+title: "Geomarker Assessment with R"
+date: 2020-11-14
+preview: erika-rasnick.png
+client: "Erika Rasnick"
+category: Modeling
+description: "
+### Erika Rasnick
+
+Relationships between place-based information and health outcomes are a common
+area of interest in medical and public health research. This talk will describe
+a set of publicly available tools and pipelines developed using R for
+transforming a residential mailing address to geographic coordinates and
+assigning a variety of place-based data (termed 'geomarkers'). DeGAUSS, an
+offline container-based software powered by R, can be used for geocoding and
+estimating exposure to greenspace, distance to nearest roadway (a marker of air
+pollution exposure), access to medical care measured by drive time, and
+community-level poverty and deprivation, while protecting private health
+information. Further, we have developed a set of R packages that can be used for
+spatiotemporal geomarker assessment, including weather data and model-based
+estimation of traffic-related air pollution exposure.
+"
+talk: true

@@ -1,0 +1,61 @@
+modalID: 13
+title: "How We Used Rstats to Win Best Government Reporting in Ohio"
+date: 2020-11-14
+preview: lucia-walinchus.jpg
+client: "Lucia Walinchus"
+category: Communication
+description: "
+### Lucia Walinchus
+
+In 2018, [Eye on Ohio](https://eyeonohio.com/) was one of just two U.S. outlets
+selected for a grant by the Pulitzer Center for Crisis Reporting to investigate
+property records.
+
+
+A team of five people worked on this project for ten months, gathering,
+analyzing, and verifying millions of parcels. After interviewing dozens of
+people affected, writing approximately 700 lines of code to recalculate property
+values, and verifying figures with local officials, Eye on Ohio was able to put
+a price tag on a problem that affects communities in Ohio as well as most other
+states.
+
+
+[How Much are you Overpaying in Property Tax?](https://eyeonohio.com/property-tax-loophole/)
+
+
+This project is based off of the simple idea that we can gain great insights by
+combining different property data sets. Ohio keeps great records, but
+unfortunately they are very county-centric. In other words, records tend to be
+in 88 different places! Which makes things difficult to say the least.
+
+
+For the first story in this series, we looked at how entity sales affect
+property tax rates in Ohio. We know this has been going on for a while, but no
+one had ever actually quantified the damage. We know that if some people
+underpay their taxes, that means others overpay. But what does that actually
+COST our readers? That’s what we wanted to laser focus on.
+
+
+For example, in Athens County, an apartment complex had been on the books for
+approximately $13.8 million. But then a mortgage appraisal of the property found
+it to be worth almost $49 million! However since the transaction was technically
+only a sale of the business, and not the building, the buyer only paid to have
+the name of the business changed. Total due to the county: 50 cents.
+
+
+The story was picked up by 36 different news outlets, reaching an estimated half
+million people.
+
+
+After local coverage, a bipartisan group of lawmakers addressed the issue in a
+new bill, and the Ohio Supreme Court issued an opinion that makes structuring
+such deals much harder.
+
+
+The Cincinnati Society of Professional Journalists named it the Best Government
+News Story at their 2020 awards. I thought this would be a great way to show
+what R can do. And we published all our work on our website so others can learn
+from us. 
+
+"
+talk: true

@@ -1,0 +1,18 @@
+modalID: 12
+title: "Tips for askeRs and helpeRs"
+date: 2020-11-14
+preview: pj-van-camp.jpg
+client: "PJ Van Camp"
+category: Communication
+description: "
+### PJ Van Camp
+
+When asking others for help with our R code, it's important to provide them with
+a Reproducible Example (ReprEx). This is the minimal data and code you need to
+recreate an issue. Using the 'reprex' and 'datapasta' package, this session will
+teach you how to create one. If you're the expert helping someone else, it's
+equally important you learn to structure your answer and provide not only a
+solution but also understanding. A few tips will be provided for them as well.
+
+"
+talk: true

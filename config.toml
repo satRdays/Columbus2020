@@ -181,13 +181,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   # Talk [Portfolio] section
   [params.portfolio]
-    enable = false
+    enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Speakers"
-    subtitle = "Speakers for satRdays Columbus 2020"
+    title = "Talks"
+    subtitle = "Click on a talk for more details"
     bg = false
 
     [params.portfolio.modal]

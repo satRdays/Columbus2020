@@ -1,0 +1,18 @@
+modalID: 6
+title: "Analyzing Bike Share Data in R"
+date: 2020-11-14
+preview: trevin-flickinger.jpg
+client: "Trevin Flickinger"
+category: Hobbies
+description: "
+### Trevin Flickinger
+
+Public bike share has been available in Columbus since 2018. In this talk we
+will make visualizations, analyze the data using the Tidyverse, and build models
+to forecast bike sharing demand. We will also explore the introduction of
+electric bikes to the system in 2020.
+
+
+[Blog post on bike sharing](https://www.trevinflickinger.com/2020/01/21/analyzing-bike-data-with-r/)
+"
+talk: true

@@ -1,0 +1,31 @@
+modalID: 4
+title: "sARcASm: Practicing programming techniques via an R package"
+date: 2020-11-14
+preview: alec-wong.jpg
+client: "Alec Wong"
+category: Hobbies
+description: "
+### Alec Wong
+
+Several social media communities have converged on intra-word randomized mixed
+casing as the accepted method of conveying sarcasm or mockery in printed text.
+The {sarcasm} package fills a critical gap in the R package ecosystem by making
+this mode of expression available for use in R programming, and thereby
+reporting and other important documentation.
+
+
+Actually, {sarcasm} is a goofy exploration which began with an attempt to
+produce said intra-word randomized mixed casing in a functional fashion, and
+evolved into a small exploration of error handling functions. Replicating this
+behavior in Python served as additional exercise in Python programming, module
+creation, and the use of the {reticulate} package. The minimal dependencies and
+code also make it a good demonstration of R package infrastructure.
+
+
+R packages are an excellent way to practice writing reproducible code, to test
+new techniques, and share your work -- even if the purpose is silly.
+
+
+[sarcasm package on GitHub](https://github.com/awong234/sarcasm)
+"
+talk: true

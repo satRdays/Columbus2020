@@ -1,0 +1,29 @@
+modalID: 1
+title: "cpp11 - welding R and C++"
+date: 2020-11-14
+preview: jim-hester.jpg
+client: "Jim Hester"
+category: Infrastructure
+description: "
+### Jim Hester
+
+R and S have a long history of interacting with compiled languages.
+The Rcpp package has been a widely successful project, however over the years a number of issues and additional C++ features have arisen.
+Modifying Rcpp to fix or include these would require a great deal of work, or in some cases would be impossible without severely breaking backwards compatibility.
+cpp11 is a ground up rewrite of C++ bindings to R with different design trade-offs and features.
+This talk will focus on the new features of cpp11 including:
+
+- Enforcing copy-on-write semantics.
+
+- Improving the safety of using the R API from C++ code.
+
+- Supporting ALTREP objects.
+
+- Using UTF-8 strings everywhere.
+
+- Applying newer C++11 features.
+
+
+We will also discuss the mechanics of transitioning packages from Rcpp to cpp11 and why we feel cpp11 is a solid foundation to build upon in the years ahead.
+"
+talk: true

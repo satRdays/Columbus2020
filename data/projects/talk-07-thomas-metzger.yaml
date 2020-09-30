@@ -1,0 +1,27 @@
+modalID: 7
+title: "Bayesian Model Selection with the R Package slgf"
+date: 2020-11-14
+preview: thomas-metzger.png
+client: "Thomas Metzger"
+category: Modeling
+description: "
+### Thomas Metzger
+
+Linear models with categorical predictors are one of the most widely used
+statistical methods across a variety of scientific fields. However, common
+simplistic assumptions associated with such linear models may lead to model
+misspecification and ignore key relationships within the data. With the new R
+package “slgf”, I implement a model selection approach which utilizes Bayesian
+statistics to detect structures that would otherwise be disregarded by usual
+approaches. This R package allows the user to specify a set of candidate models,
+model structures, and Bayesian priors to quantify the posterior probability of
+each specified model. I illustrate this method and the usage of slgf through
+one-way analysis of variance (ANOVA), analysis of covariance (ANCOVA), and
+unreplicated two-way layouts using real data sets, although slgf is broadly
+applicable to the class of linear models that includes categorical predictors.
+
+
+This session is based on joint work with Christopher Franck of Virginia Tech
+([Metzger & Franck, 2020](https://www.tandfonline.com/doi/full/10.1080/00401706.2020.1739561)).
+"
+talk: true
