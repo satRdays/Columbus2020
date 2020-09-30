@@ -11,7 +11,7 @@ Linear models with categorical predictors are one of the most widely used
 statistical methods across a variety of scientific fields. However, common
 simplistic assumptions associated with such linear models may lead to model
 misspecification and ignore key relationships within the data. With the new R
-package “slgf”, I implement a model selection approach which utilizes Bayesian
+package 'slgf', I implement a model selection approach which utilizes Bayesian
 statistics to detect structures that would otherwise be disregarded by usual
 approaches. This R package allows the user to specify a set of candidate models,
 model structures, and Bayesian priors to quantify the posterior probability of
