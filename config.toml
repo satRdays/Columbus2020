@@ -56,7 +56,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     callforpapers = "Submit"
     about = "Timeline"
     portfolio = "Talks"
-    eventbrite = "Register"
+    # The eventbrite value is currently unused
+    # eventbrite = "Register"
     schedule = "Schedule"
     team = "People"
     contact = "Contact"
@@ -67,10 +68,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     # below and replace the values with your own.
 
     # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
+    [[menu.prepend]]
+      url = "{{ .Site.BaseURL }}#eventbrite"
+      name = "Register"
+      weight = 0
 
     # postpended links
     [[menu.postpend]]
