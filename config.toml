@@ -28,6 +28,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   custom_css = ["css/satrday.css"]
   custom_js  = []
   favicon    = "img/favicon.ico"
+  social_media_preview = "img/satrday-columbus-logo-outline.png"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome

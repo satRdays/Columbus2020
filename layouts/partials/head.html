@@ -36,4 +36,22 @@
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   {{ "<![endif]-->" | safeHTML }}
+
+  <!-- Social media preview -->
+  {{ with .Site.Params.social_media_preview }}
+  <meta property="og:image" content="{{ . | absURL }}" />
+  {{ end }}
+  <meta property="og:site_name" content="SatRday Columbus 2020" />
+  <meta property="og:type" content="object" />
+  <meta property="og:title" content="SatRday Columbus 2020" />
+  <meta property="og:url" content="https://columbus2020.satrdays.org/" />
+  <meta property="og:description" content="A virtual R conference featuring useRs across Ohio on November 14, 2020!" />
+  {{ with .Site.Params.social_media_preview }}
+  <meta name="twitter:image:src" content="{{ . | absURL }}" />
+  {{ end }}
+  <meta name="twitter:site" content="@satRdays_org" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SatRday Columbus 2020" />
+  <meta name="twitter:description" content="A virtual R conference featuring useRs across Ohio on November 14, 2020!" />
+
 </head>
