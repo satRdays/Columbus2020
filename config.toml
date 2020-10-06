@@ -201,6 +201,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.schedule]
     enable = true
     title = "Schedule"
+    subtitle = "The local timezone is America/New_York. Due to daylight savings time, it will unfortunately switch from UTC-4 to UTC-5 on November 1st. If you will be joining us from a different timezone, you can click on a start time to convert to your local timezone."
     bg = true
 
   # Important Dates [About] section
