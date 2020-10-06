@@ -15,7 +15,10 @@ class="bg-light-gray"
           <p>{{ .startsAt }}</p>
           <p>{{ .endsAt }} </p>
         </div>
-        <h4 class="ScheduleItem-title">{{ .title | markdownify }}</h4>
+        <h4 class="ScheduleItem-title">
+          {{ .title | markdownify }}
+          {{ with .client  }} ({{ . | markdownify }}) {{ end }}
+        </h4>
       </div>
       {{ end }}
     </div>
