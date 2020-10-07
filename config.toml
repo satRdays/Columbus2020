@@ -28,11 +28,18 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   custom_css = ["css/satrday.css"]
   custom_js  = []
   favicon    = "img/favicon.ico"
-  social_media_preview = "img/satrday-columbus-logo-outline.png"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
   disableFonts = false
+
+  # Social media preview
+  [params.social]
+    enable = true
+    image = "img/useR-social-media-image.png"
+    title = "SatRday Columbus 2020"
+    description = "A virtual R conference featuring useRs across Ohio on November 14, 2020!"
+    twitter_handle = "@satRdays_org"
 
   # 404 error customization
   [params.error404]

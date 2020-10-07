@@ -38,20 +38,27 @@
   {{ "<![endif]-->" | safeHTML }}
 
   <!-- Social media preview -->
-  {{ with .Site.Params.social_media_preview }}
+  {{ if .Site.Params.social.enable }}
+  {{ with .Site.Params.social.image }}
   <meta property="og:image" content="{{ . | absURL }}" />
-  {{ end }}
-  <meta property="og:site_name" content="SatRday Columbus 2020" />
-  <meta property="og:type" content="object" />
-  <meta property="og:title" content="SatRday Columbus 2020" />
-  <meta property="og:url" content="https://columbus2020.satrdays.org/" />
-  <meta property="og:description" content="A virtual R conference featuring useRs across Ohio on November 14, 2020!" />
-  {{ with .Site.Params.social_media_preview }}
   <meta name="twitter:image:src" content="{{ . | absURL }}" />
   {{ end }}
-  <meta name="twitter:site" content="@satRdays_org" />
+  {{ with .Site.Params.social.title }}
+  <meta property="og:title" content="{{ . }}" />
+  <meta name="twitter:title" content="{{ . }}" />
+  <meta property="og:site_name" content="{{ . }}" />
+  {{ end }}
+  {{ with .Site.Params.social.description }}
+  <meta property="og:description" content="{{ . }}" />
+  <meta name="twitter:description" content="{{ . }}" />
+  {{ end }}
+  {{ with .Site.Params.social.twitter_handle }}
+  <meta name="twitter:site" content="{{ . }}" />
+  {{ end }}
+
+  <meta property="og:url" content="{{ .Site.BaseURL }}" />
+  <meta property="og:type" content="object" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="SatRday Columbus 2020" />
-  <meta name="twitter:description" content="A virtual R conference featuring useRs across Ohio on November 14, 2020!" />
+  {{ end }}
 
 </head>
