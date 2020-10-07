@@ -79,6 +79,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[menu.prepend]]
       url = "{{ .Site.BaseURL }}#eventbrite"
       name = "Register"
+      weight = 1
+
+    [[menu.prepend]]
+      url = "{{ .Site.BaseURL }}#schedule"
+      name = "Schedule"
       weight = 0
 
     # postpended links
