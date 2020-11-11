@@ -353,6 +353,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     [[params.clients]]
       logo = "aware.png"
       link = "https://www.awarehq.com/"
+
+    [[params.clients]]
+      logo = "tcc-logo.png"
+      link = "http://techcc.org/"
   
   [params.diversity]
     enable = true
