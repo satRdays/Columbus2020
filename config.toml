@@ -77,8 +77,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     # prepended links
     [[menu.prepend]]
-      url = "{{ .Site.BaseURL }}#eventbrite"
-      name = "Register"
+      url = "https://bit.ly/satRdayColumbus2020"
+      name = "YouTube"
       weight = 1
 
     [[menu.prepend]]
@@ -152,7 +152,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       # include botht the account and event in a string, seperated by /, with no spaces
 
   [params.eventbrite]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eid = "119093888025"
@@ -438,3 +438,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       icon = "fa-github"
       link = "https://github.com/satRdays/Columbus2020"
       title = "GitHub"
+
+    [[params.footer.social]]
+      icon = "fa-youtube"
+      link = "https://bit.ly/satRdayColumbus2020"
+      title = "YouTube"
