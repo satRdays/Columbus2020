@@ -77,6 +77,11 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     # prepended links
     [[menu.prepend]]
+      url = "https://columbus2021.satrdays.org/"
+      name = "2021"
+      weight = 1
+
+    [[menu.prepend]]
       url = "https://bit.ly/satRdayColumbus2020"
       name = "YouTube"
       weight = 1
